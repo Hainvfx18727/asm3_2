@@ -1,0 +1,62 @@
+@media screen and (max-width: 767px) {
+  #banner {
+    height: 380px;
+  }
+  .banner-item {
+    text-align: start;
+    padding-left: 35%;
+  }
+  .banner-wrap h1 {
+    font-size: 35px;
+  }
+  .banner-wrap p {
+    color: #ced4da;
+    font-size: 15px;
+  }
+  #about {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .banner-item:first-of-type {
+    border-left: none;
+  }
+  .banner-item:nth-of-type(2) {
+    border-left: none;
+    border-right: none;
+  }
+  .banner-item:nth-of-type(4) {
+    border-right: none;
+    border-left: none;
+  }
+  .banner-item:last-of-type {
+    border-right: none;
+  }
+  #target,
+  #personal-info {
+    padding: 15px !important;
+  }
+
+  .item2 {
+    border-left: none;
+  }
+
+  .section-item-info {
+    padding-left: 16px !important;
+  }
+
+  .card-description {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .card-title {
+    font-size: 14px;
+  }
+
+  tr {
+    font-size: 12px;
+  }
+  .link-list p {
+    display: none;
+  }
+}
